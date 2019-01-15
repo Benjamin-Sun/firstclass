@@ -95,10 +95,10 @@
 }
 
 #battery_body {
-    height: 12px;
-    width: 32px;
+    height: 11px;
+    width: 28px;
     border: #424242 1px solid;
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 #battery_header {
@@ -110,12 +110,12 @@
 }
 
 #battery_core {
-    height: 10px;
+    height: 9px;
     width: 16px;
-    background-color: red;
+    background-color: #424242;
     margin: 1px;
 
-    animation: charge 5s linear infinite;
+    /*animation: charge 5s linear infinite;*/
 }
 
 

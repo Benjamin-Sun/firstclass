@@ -48,3 +48,14 @@
     right: 10px;
     top: 45px;
 }
+
+.title_other {
+    background-image: url("../../weibo/img/箭头.svg");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 53px;
+    right: 135px;
+}
