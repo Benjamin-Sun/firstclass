@@ -1,5 +1,54 @@
-
 #menus {
     height: 50px;
-    background-color: aquamarine;
+    background-color: #F5F5F5;
+    width: 100%;
+    /*border: red solid 1px;*/
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between ;
+
+}
+.f {
+    height: 50px;
+    /*width: 100px;*/
+    color: white;
+    float: left;
+}
+
+
+#d1 {
+    /*background-color: #313131;*/
+    background-image: url("../../../04.project/01.wechat/img/icon/menu/chat.svg");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+    flex:1
+}
+
+#d2 {
+    /*background-color: #E91E63;*/
+    background-image: url("../../../04.project/01.wechat/img/icon/menu/contact.svg");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+    flex:1
+}
+
+#d3 {
+    /*background-color: bisque;*/
+    background-image: url("../../../04.project/01.wechat/img/icon/menu/discover.svg");
+    background-repeat: no-repeat;
+    background-size: 28%;
+    background-position: center;
+    flex:1
+}
+
+#d4 {
+    /*background-color: chartreuse;*/
+    background-image: url("../../../04.project/01.wechat/img/icon/menu/me.svg");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center;
+    flex:1
 }
