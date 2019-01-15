@@ -1,0 +1,40 @@
+.content {
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.content-img {
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 50%;
+
+    background-color: #ffcdd2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.content-username {
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    /*text-align: left;*/
+    margin-left: 80px;
+    margin-top: 22px;
+}
+
+.content-time {
+    height: 30px;
+    /*width: 100px;*/
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 60%;
+    color: #BDBDBD;
+}
