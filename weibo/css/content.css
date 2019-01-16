@@ -131,3 +131,21 @@
     background-position: center;
     flex:1
 }
+
+.content_evaluate {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    background-color: #F5F5F5;
+    box-shadow: 0px -1px 1px #E0E0E0;
+}
+
+.content_evaluate_text {
+    position: absolute;
+    color: #BDBDBD;
+    margin-left: 15px;
+    height: 50px;
+    margin-top: 14px;
+    /*width: 60px;*/
+}
