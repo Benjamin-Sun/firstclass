@@ -185,7 +185,7 @@
 }
 
 .content_tendency3 {
-    background-color: #EC407A;
+    background-color: #F06292;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -228,4 +228,114 @@
     color: #BDBDBD;
     font-size: 75%;
     margin-top: 6px;
+}
+
+.content_lable {
+    height: 32px;
+    width: 100%;
+    border-bottom: #E0E0E0 1px solid;
+}
+
+.content_lable_text {
+    height: 32px;
+    width: 80px;
+    color: #BDBDBD;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 15px;
+    font-size: 80%;
+}
+
+.content_lable_more {
+    height: 32px;
+    width: 80px;
+    color: #2196F3;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 335px;
+    font-size: 80%;
+}
+
+.content_search_class1 {
+    height: 118px;
+    width: 120px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 55px;
+}
+
+.content_search_class2 {
+    height: 118px;
+    width: 120px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 100px;
+}
+
+.content_search_class3 {
+    height: 118px;
+    width: 150px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 55px;
+}
+
+.content_search_class4 {
+    height: 118px;
+    width: 150px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.content_search_class1_img {
+    height: 18px;
+    width: 18px;
+    border-radius: 4px;
+    font-size: 35%;
+    background-color: #FFA726;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 94px;
+}
+
+.content_search_class2_img {
+    height: 18px;
+    width: 18px;
+    border-radius: 4px;
+    font-size: 35%;
+    background-color: #29B6F6;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top: 103px;
+    margin-left: 116px;
+}
+
+.content_search_class3_img {
+    height: 18px;
+    width: 18px;
+    border-radius: 4px;
+    font-size: 35%;
+    background-color: #FF5722;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 335px;
+}
+
+.content_search_class4_img {
+    height: 18px;
+    width: 18px;
+    border-radius: 4px;
+    font-size: 35%;
+    background-color: #FF6F00;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top: 103px;
+    margin-left: 332px;
 }
