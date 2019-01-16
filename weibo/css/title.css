@@ -59,3 +59,56 @@
     top: 53px;
     right: 135px;
 }
+
+.title_search {
+    width: 300px;
+    height: 30px;
+    background-color: #E0E0E0;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.title_search_icon {
+    background-image: url("../../weibo/img/搜索.svg");
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 6px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+
+.title_search_text {
+    height: 30px;
+    width: 300px;
+    color: #BDBDBD;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 62px;
+    font-size: 90%;
+}
+
+.title_under_class_left {
+    width: 40px;
+    height: 38px;
+    color: #FF5722;
+    margin-top: 60px;
+    margin-left: 131px;
+    position: absolute;
+    border-bottom: #FF5722 2px solid;
+    text-align: center;
+}
+
+.title_under_class_right {
+    width: 40px;
+    height: 38px;
+    color: #9E9E9E;
+    margin-top: 60px;
+    margin-left: 206px;
+    position: absolute;
+    text-align: center;
+}

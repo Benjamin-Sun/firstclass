@@ -149,3 +149,83 @@
     margin-top: 14px;
     /*width: 60px;*/
 }
+
+.content_tendency {
+    position: absolute;
+    height: 55px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    /*align-content: center;*/
+}
+
+.content_tendency1 {
+    background-color: #FFA726;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url("../../weibo/img/超级话题.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.content_tendency2 {
+    background-color: #FF7043;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url("../../weibo/img/排行榜.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.content_tendency3 {
+    background-color: #EC407A;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url("../../weibo/img/钻石.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.content_tendency_name {
+    position: absolute;
+    height: 35px;
+    width: 300px;
+    margin-top: 75px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.content_tendency_name1 {
+    height: 35px;
+    width: 50px;
+    color: #BDBDBD;
+    font-size: 75%;
+    margin-top: 6px;
+}
+
+.content_tendency_name2 {
+    height: 35px;
+    width: 37px;
+    color: #BDBDBD;
+    font-size: 75%;
+    margin-top: 6px;
+}
+
+.content_tendency_name3 {
+    height: 35px;
+    width: 37px;
+    color: #BDBDBD;
+    font-size: 75%;
+    margin-top: 6px;
+}
