@@ -10,13 +10,16 @@
 }
 
 .title_left{
-    background-color: cornflowerblue;
+    /*background-color: cornflowerblue;*/
     height: 40px;
     width: 40px;
     border-radius: 50%;
     position: absolute;
     left: 20px;
     top: 37px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 .title_center {
