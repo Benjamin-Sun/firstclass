@@ -4,6 +4,7 @@
     height: 450px;
     display: flex;
     justify-content: space-between;
+    overflow: scroll;
     /*align-items: center;*/
 }
 
