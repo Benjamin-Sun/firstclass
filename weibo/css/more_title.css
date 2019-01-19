@@ -1,40 +1,40 @@
 .title_return {
-    background-image: url("../../weibo/img/箭头.svg");
-    background-size: 60%;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 48px;
-    left: 0px;
-    transform:rotate(90deg);
+  background-image: url("../../weibo/img/箭头.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 48px;
+  left: 0px;
+  transform: rotate(90deg);
 }
 
 .title_return_text {
-    position: absolute;
-    margin-left: 35px;
-    margin-top: 12px;
-    font-size: 110%;
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 12px;
+  font-size: 110%;
 }
 
 .title_return_right1 {
-    background-image: url("../../weibo/img/收藏.svg");
-    background-size: 60%;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 45px;
-    top: 45px;
+  background-image: url("../../weibo/img/收藏.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 45px;
+  top: 45px;
 }
 
 .title_return_right2 {
-    background-image: url("../../weibo/img/更多.svg");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 5px;
-    top: 44px;
+  background-image: url("../../weibo/img/更多.svg");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 5px;
+  top: 44px;
 }
