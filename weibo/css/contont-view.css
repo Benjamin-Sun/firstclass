@@ -1,0 +1,161 @@
+.content-view {
+  background: #fff;
+  margin-bottom: 15px;
+}
+
+.title-card {
+  font: inherit;
+  position: relative;
+  background: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 .75rem;
+  box-sizing: border-box;
+}
+
+.title-card>img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.title-card>.content-center {
+  margin-left: 7px;
+}
+
+.title-card>.content-center .content-username {}
+
+.title-card>.content-center .content-time {
+  font-size: 12px;
+  color: #BDBDBD;
+}
+
+.title-card>.content-other {
+  width: 60px;
+  border: 1px solid #87909a;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  height: 23px;
+  font-size: 13px;
+  line-height: 23px;
+  padding: 0 2px;
+  border-radius: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.content-view>.weibo-main {
+  position: relative;
+  padding: 0 10px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.lastline-space-ellipsis {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+}
+
+.content-view>.weibo-main-img {
+  padding: 10px;
+}
+
+.content-view>.weibo-main-img img {
+  max-width: 70%;
+}
+
+.lite-page-editor {
+  position: fixed;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 3.125rem;
+  border-top-width: 1px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: hsla(0, 0%, 69%, .5);
+  border-style: solid;
+  background: #fff;
+  color: #333;
+}
+
+.lite-page-editor .m-box {
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+}
+
+.lite-page-editor .box-left {
+  font-size: 0;
+  min-width: 0;
+  margin-left: .75rem;
+  line-height: 3.125rem;
+}
+
+.m-box-center-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.lite-page-editor .box-left .focus {
+  color: #a5adb5;
+}
+
+.lite-page-editor .box-left .main-text {
+  font-size: 1rem;
+  min-width: 0;
+  display: block;
+  max-width: 10rem;
+  max-width: 100vw;
+}
+
+.content-good {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  border-top: 1px solid #eaeaea;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.content-g1 {
+  background-image: url("../../img/赞.svg");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: center;
+  flex: 1
+}
+
+.content-g2 {
+  background-image: url("../../img/评论.svg");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: center;
+  flex: 1
+}
+
+.content-g3 {
+  background-image: url("../../img/转发.svg");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: center;
+  flex: 1
+}
+
+.content-g4 {
+  background-image: url("../../img/share.svg");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: center;
+  flex: 1
+}

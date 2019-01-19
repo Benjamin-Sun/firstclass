@@ -1,42 +1,36 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 微软雅黑;
+  padding: 0;
+  margin: 0;
+  font-family: 微软雅黑;
 }
 
 a {
-    text-decoration: NONE;
-    display: block;
-    width: 80px;
-    height: 50px;
+  text-decoration: NONE;
+  display: block;
+  width: 80px;
+  height: 50px;
 }
 
 .border {
-    border: red 1px solid;
+  border: red 1px solid;
 }
 
 .xy-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .space {
-    width: 100%;
-    height: 8px;
+  width: 100%;
+  height: 8px;
 }
 
-.back{
-
-    height: auto;
+.back {
+  height: auto;
+  padding-bottom: 50px;
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
-
-
-
-
-
-
