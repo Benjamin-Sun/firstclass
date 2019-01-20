@@ -291,12 +291,12 @@
   height: 18px;
   width: 18px;
   border-radius: 4px;
-  font-size: 35%;
+  font-size: 40%;
   background-color: #FFA726;
   text-align: center;
   color: white;
   position: absolute;
-  margin-top: 60px;
+  margin-top: 58px;
   margin-left: 94px;
 }
 
@@ -304,7 +304,7 @@
   height: 18px;
   width: 18px;
   border-radius: 4px;
-  font-size: 35%;
+  font-size: 40%;
   background-color: #29B6F6;
   text-align: center;
   color: white;
@@ -317,7 +317,7 @@
   height: 18px;
   width: 18px;
   border-radius: 4px;
-  font-size: 35%;
+  font-size: 40%;
   background-color: #FF5722;
   text-align: center;
   color: white;
@@ -330,7 +330,7 @@
   height: 18px;
   width: 18px;
   border-radius: 4px;
-  font-size: 35%;
+  font-size: 40%;
   background-color: #FF6F00;
   text-align: center;
   color: white;
